@@ -15,13 +15,13 @@ miniImages.forEach((miniImage, index) => {
 function changeImage(index) {
   currentIndex = index;
   const imagePaths = [
-	'images/T7's Men's Track PantsA.jpg',
-	'images/T7's Men's Track PantsB.jpg', 
-    'images/T7's Men's Track PantsC.jpg', 
-	'images/T7's Men's Track PantsD.jpg', 
-   	'images/T7's Men's Track PantsE.jpg', 
-	'images/T7's Men's Track PantsF.jpg', 
-	'images/T7's Men's Track PantsG.jpg'
+	'imagesmain/T7's Men's Track PantsA.jpg',
+	'imagesmain/T7's Men's Track PantsB.jpg', 
+    'imagesmain/T7's Men's Track PantsC.jpg', 
+	'imagesmain/T7's Men's Track PantsD.jpg', 
+   	'imagesmain/T7's Men's Track PantsE.jpg', 
+	'imagesmain/T7's Men's Track PantsF.jpg', 
+	'imagesmain/T7's Men's Track PantsG.jpg'
 	];
 
   mainImage.src = imagePaths[index];

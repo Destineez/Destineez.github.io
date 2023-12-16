@@ -15,14 +15,14 @@ miniImages.forEach((miniImage, index) => {
 function changeImage(index) {
   currentIndex = index;
   const imagePaths = [
-	'images/nikeinvincible3.jpg',
-	'images/invincible-3-2a.png', 
-    'images/invincible-3-2b.png', 
-	'images/invincible-3-2c.png', 
-    'images/invincible-3-2d.png', 
-	'images/invincible-3-2e.png', 
-    'images/invincible-3-2f.png', 
-	'images/invincible-3-2g.png'
+	'imagesmain/nikeinvincible3.jpg',
+	'imagesmain/invincible-3-2a.png', 
+    'imagesmain/invincible-3-2b.png', 
+	'imagesmain/invincible-3-2c.png', 
+    'imagesmain/invincible-3-2d.png', 
+	'imagesmain/invincible-3-2e.png', 
+    'imagesmain/invincible-3-2f.png', 
+	'imagesmain/invincible-3-2g.png'
 	];
 
   mainImage.src = imagePaths[index];

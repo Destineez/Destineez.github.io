@@ -203,7 +203,7 @@ footer {
 	justify-content: center;
     background-color: #f9f9f9; 
 	text-align: center;
-	background-image: url('images/modernclothinghangars.jpg'); 
+	background-image: url('imagesmain/modernclothinghangars.jpg'); 
     background-size: cover; 
     background-position: center; 
 }
@@ -256,7 +256,7 @@ footer {
 	justify-content: center;
     background-color: #f9f9f9; 
 	text-align: center;
-	background-image: url('images/finesseclothing.jpg'); 
+	background-image: url('imagesmain/finesseclothing.jpg'); 
     background-size: cover; 
     background-position: center;
 	padding: 20px;

@@ -15,13 +15,13 @@ miniImages.forEach((miniImage, index) => {
 function changeImage(index) {
   currentIndex = index;
   const imagePaths = [
-	'images/PumaPleasuresMenSweatpantsA.jpg',
-	'images/PumaPleasuresMenSweatpantsB.jpg', 
-    'images/PumaPleasuresMenSweatpantsC.jpg', 
-	'images/PumaPleasuresMenSweatpantsD.jpg', 
-   	'images/PumaPleasuresMenSweatpantsE.jpg', 
-	'images/PumaPleasuresMenSweatpantsF.jpg', 
-	'images/PumaPleasuresMenSweatpantsG.jpg'
+	'imagesmain/PumaPleasuresMenSweatpantsA.jpg',
+	'imagesmain/PumaPleasuresMenSweatpantsB.jpg', 
+    'imagesmain/PumaPleasuresMenSweatpantsC.jpg', 
+	'imagesmain/PumaPleasuresMenSweatpantsD.jpg', 
+   	'imagesmain/PumaPleasuresMenSweatpantsE.jpg', 
+	'imagesmain/PumaPleasuresMenSweatpantsF.jpg', 
+	'imagesmain/PumaPleasuresMenSweatpantsG.jpg'
 	];
 
   mainImage.src = imagePaths[index];

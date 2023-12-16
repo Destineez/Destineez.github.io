@@ -15,10 +15,10 @@ miniImages.forEach((miniImage, index) => {
 function changeImage(index) {
   currentIndex = index;
   const imagePaths = [
-	'images/GuessProdA1.jpg',
-	'images/GuessProdA2.jpg', 
-    'images/GuessProdA3.jpg', 
-	'images/GuessProdA4.jpg'
+	'imagesmain/GuessProdA1.jpg',
+	'imagesmain/GuessProdA2.jpg', 
+    'imagesmain/GuessProdA3.jpg', 
+	'imagesmain/GuessProdA4.jpg'
 	]; 
 
   mainImage.src = imagePaths[index];

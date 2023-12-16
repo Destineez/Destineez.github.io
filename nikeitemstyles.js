@@ -15,14 +15,14 @@ miniImages.forEach((miniImage, index) => {
 function changeImage(index) {
   currentIndex = index;
   const imagePaths = [
-	'images/air-max-pulse-shoes-2bZSZVz.png',
-	'images/air-max-pulse-shoes-2bZSZV.png', 
-    'images/air-max-pulse-shoes-2bZSZVa.png', 
-	'images/air-max-pulse-shoes-2bZSZVb.png', 
-    'images/air-max-pulse-shoes-2bZSZVc.png', 
-	'images/air-max-pulse-shoes-2bZSZVd.png', 
-    'images/air-max-pulse-shoes-2bZSZVe.png', 
-	'images/air-max-pulse-shoes-2bZSZVf.png'
+	'imagesmain/air-max-pulse-shoes-2bZSZVz.png',
+	'imagesmain/air-max-pulse-shoes-2bZSZV.png', 
+    'imagesmain/air-max-pulse-shoes-2bZSZVa.png', 
+	'imagesmain/air-max-pulse-shoes-2bZSZVb.png', 
+    'imagesmain/air-max-pulse-shoes-2bZSZVc.png', 
+	'imagesmain/air-max-pulse-shoes-2bZSZVd.png', 
+    'imagesmain/air-max-pulse-shoes-2bZSZVe.png', 
+	'imagesmain/air-max-pulse-shoes-2bZSZVf.png'
 	];
 
   mainImage.src = imagePaths[index];

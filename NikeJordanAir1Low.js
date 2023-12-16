@@ -15,14 +15,14 @@ miniImages.forEach((miniImage, index) => {
 function changeImage(index) {
   currentIndex = index;
   const imagePaths = [
-	'images/air-jordan-1-low-a.png',
-	'images/air-jordan-1-low-b.png', 
-    'images/air-jordan-1-low-c.png', 
-	'images/air-jordan-1-low-d.png', 
-    'images/air-jordan-1-low-e.png', 
-	'images/air-jordan-1-low-f.png', 
-    'images/air-jordan-1-low-h.png', 
-	'images/air-jordan-1-low-i.png'
+	'imagesmain/air-jordan-1-low-a.png',
+	'imagesmain/air-jordan-1-low-b.png', 
+    'imagesmain/air-jordan-1-low-c.png', 
+	'imagesmain/air-jordan-1-low-d.png', 
+    'imagesmain/air-jordan-1-low-e.png', 
+	'imagesmain/air-jordan-1-low-f.png', 
+    'imagesmain/air-jordan-1-low-h.png', 
+	'imagesmain/air-jordan-1-low-i.png'
 	];
 
   mainImage.src = imagePaths[index];

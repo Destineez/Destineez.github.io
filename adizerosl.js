@@ -15,21 +15,21 @@ miniImages.forEach((miniImage, index) => {
 function changeImage(index) {
   currentIndex = index;
   const imagePaths = [ 
-	'images/adizerosl.jpg',
-	'images/adizerosl2.jpg',
-    'images/adizerosl3.jpg',
-    'images/adizerosl4.jpg',
-    'images/adizerosl5.jpg',
-    'images/adizerosl6.jpg',
-    'images/adizerosl7.jpg',
-    'images/adizerosl8.jpg',
-	'images/adizerosl9.jpg',
-	'images/adizerosl10.jpg',
-	'images/adizerosl11.jpg',
-	'images/adizerosl12.jpg',
-	'images/adizerosl13.jpg',
-	'images/adizerosl14.jpg',
-	'images/adizerosl15.jpg'
+	'imagesmain/adizerosl.jpg',
+	'imagesmain/adizerosl2.jpg',
+    'imagesmain/adizerosl3.jpg',
+    'imagesmain/adizerosl4.jpg',
+    'imagesmain/adizerosl5.jpg',
+    'imagesmain/adizerosl6.jpg',
+    'imagesmain/adizerosl7.jpg',
+    'imagesmain/adizerosl8.jpg',
+	'imagesmain/adizerosl9.jpg',
+	'imagesmain/adizerosl10.jpg',
+	'imagesmain/adizerosl11.jpg',
+	'imagesmain/adizerosl12.jpg',
+	'imagesmain/adizerosl13.jpg',
+	'imagesmain/adizerosl14.jpg',
+	'imagesmain/adizerosl15.jpg'
 	];
 
   mainImage.src = imagePaths[index];

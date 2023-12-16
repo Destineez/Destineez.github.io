@@ -67,7 +67,7 @@
 }
 
 .first-section {
-    background-image: url('images/finesseclothing.jpg'); 
+    background-image: url('imagesmain/finesseclothing.jpg'); 
     background-size: cover; 
     background-position: center; 
     background-repeat: no-repeat; 
@@ -82,7 +82,7 @@
 }
 
 .second-section {
-    background-image: url('images/blackcosmos.jpg'); 
+    background-image: url('imagesmain/blackcosmos.jpg'); 
     padding: 300px; 
     color: white; 
     background-size: cover; 
@@ -120,7 +120,7 @@
 }
 
 .third-section {
-    background-image: url('images/greyflash.jpeg'); 
+    background-image: url('imagesmain/greyflash.jpeg'); 
     padding: 300px; 
     color: gray; 
     background-size: cover; 
@@ -198,7 +198,7 @@
 }
 
 .fifth-section {
-    background-image: url('images/clotheshangar.png'); 
+    background-image: url('imagesmain/clotheshangar.png'); 
     padding: 100px; 
     color: white; 
 	font-size: 30px;
