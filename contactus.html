@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="contactus.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Fashion Radar</title>
+		<link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="Fashion Radar.html">
+                    <img src="images/fashionradarlogoonly.png" class="logo" width="50" height="50">
+                    <img src="images/fashionradarlogotext.png" class="logo">
+                </a>
+            </li>
+            <div class="separator"></div> 
+            <li><a href="FeaturedTab.html">Featured</a></li>
+            <li><a href="Catalog.html">Catalog</a></li>
+            <ul class="nav-links">
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </ul>
+    </nav>
+</header>
+
+<br><br><br><br><br><br>
+
+<h1 style="color: #000; font-size: 36px; text-align: center; font-family: 'Arial', sans-serif;">Need inquries/questions? Contact us here.</h1>
+
+
+
+    <main class="main">
+    <section class="section">
+        <h2>Send us a message:</h2>
+		<form id="messageForm" method="post">
+            <label class="label" for="name">Name:</label>
+            <input class="input-text" type="text" id="name" name="name" required>
+
+			<label class="label" for="youremailaddress">Your Email Address:</label>
+            <input class="input-text" type="text" id="youremailaddress" name="youremailaddress" required>
+			
+			<label class="label" for="subject">Subject:</label>
+            <input class="input-text" type="text" id="subject" name="subject" required>
+			
+            <label class="label" for="email">Email:</label>
+            <select class="input-email" id="email" name="email" required>
+				<option value="">Choose...</option>
+                <option value="option2@example.com">kerbypelicano@gmail.com</option>
+            </select>
+
+            <label class="label" for="message">Message:</label>
+            <textarea class="textarea" id="message" name="message" rows="4" required></textarea>
+
+            <input class="input-submit" type="button" value="Submit" onclick="sendMessage()">
+        </form>
+    </section>
+    <script src="contactus.js"></script>
+</main>
+
+<br><br><br><br>
+
+<h1 style="color: #000; font-size: 36px; text-align: center; font-family: 'Arial', sans-serif;">Or communicate with us through:</h1>
+<br><br><br>
+<center>
+<a href="https://web.facebook.com/profile.php?id=100083046811462"><img src="images/flogo1.png" width="175" height="150"/></a>
+<p style="color: #000; font-size: 20px; text-align: center; font-family: 'Arial', sans-serif;">Kerby Pelicano</p>
+<br><br><br>
+<a href="https://web.facebook.com/randall.bomediano"><img src="images/flogo1.png" width="175" height="150"/></a>
+<p style="color: #000; font-size: 20; text-align: center; font-family: 'Arial', sans-serif;">Randolph Bomediano</p>
+</a></center>
+
+<br><br><br><br><br><br><br><br>
+
+    <footer>
+        &copy; 2023 Fashion Radar. All Rights Reserved.
+    </footer>
+</body>
+</html>

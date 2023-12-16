@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Fashion Radar</title>
+		<link rel="icon" href="images/favicon.png" type="image/png">
+</head>
+<body>
+
+	<script>
+  document.addEventListener('DOMContentLoaded', function () {
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        const offset = 50;
+
+        targetElement.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start',
+          inline: 'nearest',
+          offset: { top: -offset }
+        });
+      });
+    });
+  });
+</script>
+
+	<header>
+        <nav class="navbar">
+            <ul>
+				<li><a href="Fashion Radar.html"><img src="images/fashionradarlogoonly.png" class="logo" width="50" height="50"><img src="images/fashionradarlogotext.png" class="logo"></a></li></a></li>
+				<div class="separator"></div>
+				<li><a href="#featured-section">Featured</a></li>
+				<li><a href="Catalog.html">Catalog</a></li>
+				<ul class="nav-links">
+                <li><a href="About Us.html">About Us</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+				</li>
+            </ul>
+        </nav>
+    </header>
+    
+	<section class="first-section">
+	<main>
+				<div class="image-container one">
+					<img src="images/clotheshangar.png">
+				</div>
+		<p class="above-search"><br><br><br><br><br>Find you Apparel Brands.<br>Anywhere.</p>
+		
+
+	<form action="catalog.html" method="GET" id="searchForm" class="search-container">
+    	<div class="search-box">
+       	 <input type="text" id="search" name="query" placeholder="Type your Item here..." value="">
+       	 <button type="submit" id="search-button">Go</button>
+   	</div>
+</form>
+
+			
+		<p class="below-search"><br>Locally in Stores Near You.</p>
+	</section>
+		
+	<section class="item-section" id="featured-section">
+		<div class="above-item-box">
+			<h1>Featured Items</h1>
+				
+			<div class="flex-container">
+				<div class="item-box">
+					<a class="item-link" href="GuessEcoRayonIndigoTropicsShirt.html">
+					<img src="images/GuessProdC1.jpg" alt="Guess Eco Rayon Indigo Tropics Shirt">
+					<p class="item-description"><br>Guess: Eco Rayon Indigo Tropics Shirt</p>
+					</a></div>
+				
+				<div class="item-box">
+					<a class="item-link" href="NikeAirMaxPulse.html">
+					<img src="images/nikeairmaxpulse.png" alt="Nike: Air Max Pulse">
+					<p class="item-description"><br>Nike: Air Max Pulse</p>
+					</a></div>
+					
+				<div class="item-box">
+					<a class="item-link" href="FeaturedTab.html">
+					<p><br><br><br><br><br></p><br><br>><br><br><br>
+					<p class="item-description"><br>Show More...</p>
+					</a></div>
+					
+				</div></div>
+	</section><br><br><br>
+
+	<section class="item-section2">
+		<div class="above-item-box">
+			<h2>Top-Rated Items</h2>
+			
+			<div class="flex-container">
+				<div class="item-box">
+					<img src="images/zomzamnzarapants.jpg" alt="ZARA: Mid-Rise TRF Cargo Pants">
+					<p class="item-description"><br>ZARA: Mid-Rise TRF Cargo Pants</p>	
+				</div>
+				
+				<div class="item-box">
+					<img src="images/owntherunastropants.png" alt="Adidas: Own The Run Astro Pants">
+					<p class="item-description"><br>Adidas: Own The Run Astro Pants</p>
+				</div>
+				
+				<div class="item-box">
+					<img src="images/reboundlayuptrainers.png" alt="Puma: Rebound Lay-Up Trainers">
+					<p class="item-description"><br>Puma: Rebound Lay-Up Trainers</p>
+				</div>				
+				
+				<div class="item-box">
+					<img src="images/hugobosstracksuit.png" alt="Hugo Boss: Cotton-terry Tracksuit Bottoms (w/ Logo Print)">
+					<p class="item-description"><br>Hugo Boss: Cotton-terry Tracksuit Bottoms</p>
+				</div>
+				
+				<div class="item-box">
+                    <img src="images/twillminidress.png" alt="Prada: Washed Twill Minidress">
+                    <p class="item-description">Prada: Washed Twill Minidress</p>	
+                </div>
+
+	</section><br><br><br>
+
+	<section>
+		<h3><span style="font-size: 70px;"><center>Supported Brands</h3><br><br><br>
+<center><a href="https://adidas.com.ph/"><img src="images/Adidaslogo.png" width="300" height="300" alt="Adidas Official Website (PH)"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://ph.puma.com"><img src="images/PUMAlogo.png" width="300" height="300" alt="PUMA Official Website (PH)"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.guess.com.ph/"><img src="images/guesslogo2.jpg" width="300" height="300" alt="Guess Official Website"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://nike.com"><img src="images/NikeLogo.png" width="300" height="300" alt="Nike Official Website (PH)"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://zara.com.ph"><img src="images/zaralogo.png" width="300" height="300" alt="ZARA Official Website (PH)"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.prada.com/"><img src="images/pradalogo.png" width="300" height="300" alt="Prada Official Website"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://www.dolcegabbana.com/"><img src="images/dolce&gabbanalogo.png" width="300" height="200" alt="Dolce & Gabbana Official Website"/></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="https://hugoboss.com.ph"><img src="images/HugoBosslogo.png" width="300" height="300" alt="HUGO BOSS Official Website"/></a></center>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    </main>				
+    <footer>
+		<p><center>&copy; 2023 Fashion Radar. All rights reserved. This website does not support monetization and does not claim ownership of any items. All product and brand names are trademarks of their respective owners.</p>
+    </footer>
+	
+	<script src="fashionradar.js"></script>
+	
+</body>
+</html>

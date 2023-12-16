@@ -1,0 +1,168 @@
+/* catalog.css */
+
+.header-title {
+    font-size: 36px; 
+    margin: 0; 
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+	height: 50px;
+	background-color: #ffe5b4;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 10px;
+	z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 30px;
+    text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar li {
+    display: flex;
+    margin: 0 15px; 
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+	font-weight: bolder;
+}
+
+.navbar a.active {
+	background-color: #D0D1D26B;
+}
+
+.separator {
+    border-right: 1px solid black; 
+    height: 75px; 
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 15px;
+	color: black;
+	font-weight: bold;
+}
+
+.nav-links li:nth-child(1) {
+    margin-left: 525px;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.search-container {
+    position: center;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+}
+
+#search {
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 600px;
+	font-size: 16px;
+}
+
+#search-button {
+    background-color: #ffe5b4;
+    color: #000;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+	margin-left: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #ffe9b4;
+}
+
+.item-section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+.above-item-box {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item-box {
+    box-sizing: border-box;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.item-box img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.item-link {
+    text-decoration: none;
+    color: #333;
+}
+
+.item-description {
+    margin-top: 10px;
+    font-size: 16px;
+}
