@@ -1,24 +1,23 @@
 // contactus.js
 
-const form = document.querySelector("form"),
-statusTxt = form.querySelector(".button-area span");
+function sendMessage() {
+    var name = document.getElementById("name").value;
+    var youremailaddress = document.getElementById("youremailaddress").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
 
-form.onsubmit = (e)=>{
-	e.preventDefault();
-	statusTxt.style.color = "red";
-	statusTxt.style.display = "block";
-	
-	let xhr = new XMLHTTpRequest();
-	xhr.open("POST", "send-email.php", true);
-	xhr.onload = ()=>{
-		if (xhr.readyState == 4 && xhr.status == 200){
-			let response = xhr.response;
-			if(response.indexOf("Email and password field is required!") != -1 || response.indexOf("Enter a valid email address!"))
-				statusTxt.style.color = "red";
-		statusTxt.innerText = response;
-		}
-		statusText.innerText = response;
-	}
-	}
-	let formData = new FormData(form);
-	xhr.send(formData);
+    if (name === "" || youremailaddress === "" || email === "" || message === "") {
+        alert("Please fill out all required fields.");
+    } else if (email === "option1@example.com") {
+        alert("Please choose a valid email address from the dropdown.");
+    } else if (!isValidEmail(youremailaddress)) {
+        alert("Please enter a valid email address for 'Your Email Address.'");
+    } else {
+        alert("Message successfully sent!");
+    }
+}
+
+function isValidEmail(email) {
+    var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+}
